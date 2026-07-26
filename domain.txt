@@ -1,1 +1,2 @@
-
+thetvdb.com
+themoviedb.org
