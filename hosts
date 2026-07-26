@@ -1,9 +1,9 @@
 ################################################################
 # github.com/ldoctoru Bypass host file
-# Last updated:
+# Last updated: 26.07.2026
 ################################################################
 
 # Bypass
 
-thetvdb.com
-themoviedb.org
+0.0.0.0  thetvdb.com
+0.0.0.0  themoviedb.org
