@@ -5,9 +5,28 @@
 
 # Bypass
 
+api.themoviedb.org        # TMDb API (movies + series)
+image.tmdb.org            # TMDb posters/backdrops/logos
+www.themoviedb.org
+api.thetvdb.com           # TVDb (legacy)
+api4.thetvdb.com          # TVDb v4 (current plugin)
+artworks.thetvdb.com      # TVDb images
 thetvdb.com
-themoviedb.org
-whivil.eu
-github.com
-emag.ro
-api.github.com
+webservice.fanart.tv      # Fanart plugin
+assets.fanart.tv
+ws.audioscrobbler.com     # Last.fm (music metadata)
+musicbrainz.org
+coverartarchive.org
+ia*.us.archive.org        # cover art redirects (wildcard)
+www.omdbapi.com
+img.omdbapi.com
+m.media-amazon.com        # IMDb-hosted images via OMDb
+repo.jellyfin.org
+files.jellyfin.org
+api.jellyfin.org
+jellyfin.org
+api.trakt.tv              # Trakt plugin/scrobbling
+api.opensubtitles.com     # subtitle downloads
+api.opensubtitles.org
+rest.opensubtitles.org
+api.tvmaze.com            # TVmaze plugin
