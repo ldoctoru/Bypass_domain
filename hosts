@@ -5,9 +5,9 @@
 
 # Bypass
 
-0.0.0.0  thetvdb.com
-0.0.0.0  themoviedb.org
-0.0.0.0  whivil.eu
-0.0.0.0  github.com
-0.0.0.0  emag.ro
-0.0.0.0  api.github.com
+thetvdb.com
+themoviedb.org
+whivil.eu
+github.com
+emag.ro
+api.github.com
