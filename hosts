@@ -1,32 +1,80 @@
-################################################################
-# github.com/ldoctoru Bypass host file
-# Last updated: 01.08.2026
-################################################################
+# Technitium DNS - Allow List
+# Media stack: Jellyfin, Emby, Radarr, Sonarr, Prowlarr, Bazarr, Lidarr
+# Parent domains cover all subdomains in Technitium Allowed Zones.
+# Point Settings > Blocking > Allow List URLs at this file.
 
-# Bypass
-
-api.themoviedb.org        # TMDb API (movies + series)
-image.tmdb.org            # TMDb posters/backdrops/logos
+# ---- Metadata: movies & TV ----
+themoviedb.org
+tmdb.org
 www.themoviedb.org
-api.thetvdb.com           # TVDb (legacy)
-api4.thetvdb.com          # TVDb v4 (current plugin)
-artworks.thetvdb.com      # TVDb images
+api.themoviedb.org
+image.tmdb.org
 thetvdb.com
-webservice.fanart.tv      # Fanart plugin
+api.thetvdb.com
+api4.thetvdb.com
+artworks.thetvdb.com
+fanart.tv
+webservice.fanart.tv
 assets.fanart.tv
-ws.audioscrobbler.com     # Last.fm (music metadata)
-musicbrainz.org
-coverartarchive.org
-ia*.us.archive.org        # cover art redirects (wildcard)
+omdbapi.com
 www.omdbapi.com
 img.omdbapi.com
-m.media-amazon.com        # IMDb-hosted images via OMDb
+imdb.com
+media-amazon.com
+m.media-amazon.com
+tvmaze.com
+api.tvmaze.com
+trakt.tv
+api.trakt.tv
+rottentomatoes.com
+
+# ---- Metadata: music ----
+musicbrainz.org
+coverartarchive.org
+archive.org
+us.archive.org
+theaudiodb.com
+ws.audioscrobbler.com
+last.fm
+
+# ---- *arr applications (Skyhook is critical for Sonarr) ----
+servarr.com
+skyhook.sonarr.tv
+sonarr.tv
+radarr.video
+lidarr.audio
+readarr.com
+prowlarr.com
+
+# ---- Media servers ----
+jellyfin.org
+api.jellyfin.org
 repo.jellyfin.org
 files.jellyfin.org
-api.jellyfin.org
-jellyfin.org
-api.trakt.tv              # Trakt plugin/scrobbling
-api.opensubtitles.com     # subtitle downloads
+emby.media
+mb3admin.com
+
+# ---- Subtitles (Bazarr) ----
+opensubtitles.com
+api.opensubtitles.com
+opensubtitles.org
 api.opensubtitles.org
 rest.opensubtitles.org
-api.tvmaze.com            # TVmaze plugin
+subscene.com
+addic7ed.com
+podnapisi.net
+subdivx.com
+titlovi.com
+supersubtitles.com
+legendasdivx.pt
+yifysubtitles.ch
+
+# ---- Supporting infrastructure ----
+github.com
+githubusercontent.com
+raw.githubusercontent.com
+codeload.github.com
+gitlab.com
+notifiarr.com
+pushover.net
+gotify.net
